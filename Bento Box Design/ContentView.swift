@@ -9,7 +9,16 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-
+        let lightGray = Color(
+            hue: 0/360.0,
+            saturation: 0.0,
+            brightness: 0.9
+        )
+        let lightPurple = Color(
+            hue: 266.0/360.0,
+            saturation: 0.35,
+            brightness:1
+        )
         HStack{
             VStack{
                 HStack{
@@ -36,7 +45,7 @@ struct ContentView: View {
                             Text("20%")
                                 .font(.largeTitle)
                                 .bold()
-                                .foregroundStyle(LinearGradient(colors: [.white,.purple], startPoint: .leading, endPoint:.trailing ))
+                                .foregroundStyle(LinearGradient(colors: [Color(lightPurple),.purple], startPoint: .leading, endPoint:.trailing ))
                             Spacer()
                             Text("faster CPU")
                                 .foregroundStyle(.black)
@@ -53,7 +62,7 @@ struct ContentView: View {
                             .bold()
                         Text("transistors")
                     }
-                    .foregroundStyle(LinearGradient(colors: [.indigo,.purple], startPoint: .leading, endPoint:.trailing ))
+                    .foregroundStyle(LinearGradient(colors: [Color(lightPurple),.purple], startPoint: .leading, endPoint:.trailing ))
                 }
                 HStack{
                     ZStack {
@@ -63,11 +72,11 @@ struct ContentView: View {
                                 .foregroundStyle(.black)
                                 .font(.caption)
                             Text("Neural")
-                                .foregroundStyle(LinearGradient(colors: [.indigo,.purple], startPoint: .leading, endPoint:.trailing ))
+                                .foregroundStyle(LinearGradient(colors: [Color(lightPurple),.purple], startPoint: .leading, endPoint:.trailing ))
                                 .font(.title)
                                 .bold()
                             Text("Engine")
-                                .foregroundStyle(LinearGradient(colors: [.indigo,.purple], startPoint: .leading, endPoint:.trailing ))
+                                .foregroundStyle(LinearGradient(colors: [Color(lightPurple),.purple], startPoint: .leading, endPoint:.trailing ))
                                 .font(.title
                                     .bold())
                             Text("15.8 trillion ops/s")
@@ -79,7 +88,7 @@ struct ContentView: View {
                         RoundedRectangle(cornerRadius: 20)
                         VStack{
                             Text("40%")
-                                .foregroundStyle(LinearGradient(colors: [.indigo,.purple], startPoint: .leading, endPoint:.trailing ))
+                                .foregroundStyle(LinearGradient(colors: [Color(lightPurple),.purple], startPoint: .leading, endPoint:.trailing ))
                                 .font(.title)
                                 .bold()
                             Text("Faster Neural Engine")
@@ -112,7 +121,7 @@ struct ContentView: View {
                             Text("30%")
                                 .font(.largeTitle)
                                 .bold()
-                                .foregroundStyle(LinearGradient(colors: [.indigo,.purple], startPoint: .leading, endPoint:.trailing ))
+                                .foregroundStyle(LinearGradient(colors: [Color(lightPurple),.purple], startPoint: .leading, endPoint:.trailing ))
                             Spacer()
                             Text("faster GPU")
                                 .font(.caption)
@@ -127,7 +136,7 @@ struct ContentView: View {
                             Text("performance")
                             Text("per watt")
                         }
-                        .foregroundStyle(LinearGradient(colors: [.indigo,.purple], startPoint: .leading, endPoint:.trailing ))
+                        .foregroundStyle(LinearGradient(colors: [Color(lightPurple),.purple], startPoint: .leading, endPoint:.trailing ))
                         .font(.headline)
                     }
                 }
@@ -150,7 +159,7 @@ struct ContentView: View {
                             Text("MAX")
                                 .font(.title)
                                 .bold()
-                                .foregroundStyle(LinearGradient(colors: [.indigo,.purple], startPoint: .bottomLeading, endPoint:.topTrailing ))
+                                .foregroundStyle(LinearGradient(colors: [Color(lightPurple),.purple], startPoint: .bottomLeading, endPoint:.topTrailing ))
                         }
                     }
                 }
@@ -164,7 +173,7 @@ struct ContentView: View {
                         Text("5 nm technology")
                             .font(.largeTitle)
                             .bold()
-                            .foregroundStyle(LinearGradient(colors: [.indigo,.purple], startPoint: .leading, endPoint:.trailing ))
+                            .foregroundStyle(LinearGradient(colors: [Color(lightPurple),.purple], startPoint: .leading, endPoint:.trailing ))
                     }
                 }
             }
@@ -178,7 +187,7 @@ struct ContentView: View {
                             .foregroundStyle(.black)
                             .font(.caption)
                         Text("96GB")
-                            .foregroundStyle(LinearGradient(colors: [.indigo,.purple], startPoint: .leading, endPoint:.trailing))
+                            .foregroundStyle(LinearGradient(colors: [Color(lightPurple),.purple], startPoint: .leading, endPoint:.trailing))
                             .font(Font.system (size: 40))
                             .bold()
                         Text("LPDDR5 memory")
@@ -187,16 +196,60 @@ struct ContentView: View {
                     }
                 }
                 HStack{
-                    RoundedRectangle(cornerRadius: 20)
-                    RoundedRectangle(cornerRadius: 20)
+                    ZStack {
+                        RoundedRectangle(cornerRadius: 20)
+                        VStack{
+                            Image("CPU")
+                                .resizable()
+                                .scaledToFit()
+                                .frame(width:80)
+                            Text("12-core")
+                                .foregroundStyle(LinearGradient(colors: [Color(lightPurple),.purple], startPoint: .leading, endPoint:.trailing))
+                                .font(.title)
+                            Text("CPU")
+                                .font(.caption)
+                                .foregroundStyle(.black)
+                        }
+                    }
+                    ZStack {
+                        RoundedRectangle(cornerRadius: 20)
+                        VStack {
+                            Image("GPU")
+                                .resizable()
+                                .scaledToFit()
+                                .frame(width: 50, height: 100, alignment: .top)
+                            Text("Up to")
+                                .font(.caption)
+                                .foregroundStyle(.black)
+                            Text("38-core")
+                                .font(.title)
+                                .foregroundStyle(LinearGradient(colors: [Color(lightPurple),.purple], startPoint: .leading, endPoint:.trailing))
+                            Text("GPU")
+                                .font(.caption)
+                                .foregroundStyle(.black)
+                        }
+                    }
                 }
-                RoundedRectangle(cornerRadius: 20)
+                ZStack {
+                    RoundedRectangle(cornerRadius: 20)
+                    VStack{
+                        Text("400GB/s")
+                            .foregroundStyle(LinearGradient(colors: [Color(lightPurple),.purple], startPoint: .leading, endPoint:.trailing ))
+                            .font(Font.system(size:40))
+                            .bold()
+                        Text("Memory bandwidth")
+                            .font(.headline)
+                            .foregroundStyle(.black)
+                        
+                    }
+                }
             }
             .frame(maxWidth: 215)
         }
-        .foregroundColor(.white)
+        .foregroundColor(Color(lightGray))
         .frame(width: 700, height: 400)
         .padding()
+        .background(.white)
     }
 }
 
