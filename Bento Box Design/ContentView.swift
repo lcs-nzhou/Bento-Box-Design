@@ -102,15 +102,90 @@ struct ContentView: View {
             .frame(maxWidth: 215)
             VStack{
                 HStack{
-                    RoundedRectangle(cornerRadius: 20)
-                    RoundedRectangle(cornerRadius: 20)
+                    ZStack {
+                        RoundedRectangle(cornerRadius: 20)
+                        VStack{
+                            Text("Up to")
+                                .font(.caption)
+                                .foregroundStyle(.black)
+                            Spacer()
+                            Text("30%")
+                                .font(.largeTitle)
+                                .bold()
+                                .foregroundStyle(LinearGradient(colors: [.indigo,.purple], startPoint: .leading, endPoint:.trailing ))
+                            Spacer()
+                            Text("faster GPU")
+                                .font(.caption)
+                                .foregroundStyle(.black)
+                        }
+                    }
+                    .frame(maxWidth: 100)
+                    ZStack {
+                        RoundedRectangle(cornerRadius: 20)
+                        VStack{
+                            Text("Industry-leading")
+                            Text("performance")
+                            Text("per watt")
+                        }
+                        .foregroundStyle(LinearGradient(colors: [.indigo,.purple], startPoint: .leading, endPoint:.trailing ))
+                        .font(.headline)
+                    }
                 }
-                RoundedRectangle(cornerRadius: 20)
-                RoundedRectangle(cornerRadius: 20)
+                .frame(maxHeight: 104)
+                ZStack {
+                    RoundedRectangle(cornerRadius: 20)
+                    ZStack {
+                        Rectangle()
+                            .foregroundColor(.black)
+                            .frame(width: 150, height: 150, alignment: .center)
+                        VStack {
+                            HStack {
+                                Text("")
+                                    .font(Font.system (size: 50))
+                                    .foregroundStyle(LinearGradient(colors: [.gray,.white], startPoint: .bottomLeading, endPoint: .topTrailing ))
+                                Text("M2")
+                                    .font(Font.system(size: 40))
+                                    .bold()
+                            }
+                            Text("MAX")
+                                .font(.title)
+                                .bold()
+                                .foregroundStyle(LinearGradient(colors: [.indigo,.purple], startPoint: .bottomLeading, endPoint:.topTrailing ))
+                        }
+                    }
+                }
+                ZStack {
+                    RoundedRectangle(cornerRadius: 20)
+                        .frame(maxHeight: 70)
+                    VStack{
+                        Text("Second-generation")
+                            .font(.caption)
+                            .foregroundStyle(.black)
+                        Text("5 nm technology")
+                            .font(.largeTitle)
+                            .bold()
+                            .foregroundStyle(LinearGradient(colors: [.indigo,.purple], startPoint: .leading, endPoint:.trailing ))
+                    }
+                }
             }
             .frame(maxWidth: 270)
             VStack{
-                RoundedRectangle(cornerRadius: 20)
+                ZStack {
+                    RoundedRectangle(cornerRadius: 20)
+                        .frame(maxHeight: 104)
+                    VStack{
+                        Text("Up to")
+                            .foregroundStyle(.black)
+                            .font(.caption)
+                        Text("96GB")
+                            .foregroundStyle(LinearGradient(colors: [.indigo,.purple], startPoint: .leading, endPoint:.trailing))
+                            .font(Font.system (size: 40))
+                            .bold()
+                        Text("LPDDR5 memory")
+                            .font(.caption)
+                            .foregroundStyle(.black)
+                    }
+                }
                 HStack{
                     RoundedRectangle(cornerRadius: 20)
                     RoundedRectangle(cornerRadius: 20)
