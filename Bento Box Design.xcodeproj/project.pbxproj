@@ -1,0 +1,578 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		749CEEA02AEBE80100F7B08E /* Bento_Box_DesignApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 749CEE9F2AEBE80100F7B08E /* Bento_Box_DesignApp.swift */; };
+		749CEEA22AEBE80100F7B08E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 749CEEA12AEBE80100F7B08E /* ContentView.swift */; };
+		749CEEA42AEBE80400F7B08E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 749CEEA32AEBE80400F7B08E /* Assets.xcassets */; };
+		749CEEA72AEBE80400F7B08E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 749CEEA62AEBE80400F7B08E /* Preview Assets.xcassets */; };
+		749CEEB22AEBE80400F7B08E /* Bento_Box_DesignTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 749CEEB12AEBE80400F7B08E /* Bento_Box_DesignTests.swift */; };
+		749CEEBC2AEBE80400F7B08E /* Bento_Box_DesignUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 749CEEBB2AEBE80400F7B08E /* Bento_Box_DesignUITests.swift */; };
+		749CEEBE2AEBE80400F7B08E /* Bento_Box_DesignUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 749CEEBD2AEBE80400F7B08E /* Bento_Box_DesignUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		749CEEAE2AEBE80400F7B08E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 749CEE942AEBE80100F7B08E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 749CEE9B2AEBE80100F7B08E;
+			remoteInfo = "Bento Box Design";
+		};
+		749CEEB82AEBE80400F7B08E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 749CEE942AEBE80100F7B08E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 749CEE9B2AEBE80100F7B08E;
+			remoteInfo = "Bento Box Design";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		749CEE9C2AEBE80100F7B08E /* Bento Box Design.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bento Box Design.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		749CEE9F2AEBE80100F7B08E /* Bento_Box_DesignApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bento_Box_DesignApp.swift; sourceTree = "<group>"; };
+		749CEEA12AEBE80100F7B08E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		749CEEA32AEBE80400F7B08E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		749CEEA62AEBE80400F7B08E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		749CEEA82AEBE80400F7B08E /* Bento_Box_Design.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Bento_Box_Design.entitlements; sourceTree = "<group>"; };
+		749CEEAD2AEBE80400F7B08E /* Bento Box DesignTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bento Box DesignTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		749CEEB12AEBE80400F7B08E /* Bento_Box_DesignTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bento_Box_DesignTests.swift; sourceTree = "<group>"; };
+		749CEEB72AEBE80400F7B08E /* Bento Box DesignUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bento Box DesignUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		749CEEBB2AEBE80400F7B08E /* Bento_Box_DesignUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bento_Box_DesignUITests.swift; sourceTree = "<group>"; };
+		749CEEBD2AEBE80400F7B08E /* Bento_Box_DesignUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bento_Box_DesignUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		749CEE992AEBE80100F7B08E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		749CEEAA2AEBE80400F7B08E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		749CEEB42AEBE80400F7B08E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		749CEE932AEBE80100F7B08E = {
+			isa = PBXGroup;
+			children = (
+				749CEE9E2AEBE80100F7B08E /* Bento Box Design */,
+				749CEEB02AEBE80400F7B08E /* Bento Box DesignTests */,
+				749CEEBA2AEBE80400F7B08E /* Bento Box DesignUITests */,
+				749CEE9D2AEBE80100F7B08E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		749CEE9D2AEBE80100F7B08E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				749CEE9C2AEBE80100F7B08E /* Bento Box Design.app */,
+				749CEEAD2AEBE80400F7B08E /* Bento Box DesignTests.xctest */,
+				749CEEB72AEBE80400F7B08E /* Bento Box DesignUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		749CEE9E2AEBE80100F7B08E /* Bento Box Design */ = {
+			isa = PBXGroup;
+			children = (
+				749CEE9F2AEBE80100F7B08E /* Bento_Box_DesignApp.swift */,
+				749CEEA12AEBE80100F7B08E /* ContentView.swift */,
+				749CEEA32AEBE80400F7B08E /* Assets.xcassets */,
+				749CEEA82AEBE80400F7B08E /* Bento_Box_Design.entitlements */,
+				749CEEA52AEBE80400F7B08E /* Preview Content */,
+			);
+			path = "Bento Box Design";
+			sourceTree = "<group>";
+		};
+		749CEEA52AEBE80400F7B08E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				749CEEA62AEBE80400F7B08E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		749CEEB02AEBE80400F7B08E /* Bento Box DesignTests */ = {
+			isa = PBXGroup;
+			children = (
+				749CEEB12AEBE80400F7B08E /* Bento_Box_DesignTests.swift */,
+			);
+			path = "Bento Box DesignTests";
+			sourceTree = "<group>";
+		};
+		749CEEBA2AEBE80400F7B08E /* Bento Box DesignUITests */ = {
+			isa = PBXGroup;
+			children = (
+				749CEEBB2AEBE80400F7B08E /* Bento_Box_DesignUITests.swift */,
+				749CEEBD2AEBE80400F7B08E /* Bento_Box_DesignUITestsLaunchTests.swift */,
+			);
+			path = "Bento Box DesignUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		749CEE9B2AEBE80100F7B08E /* Bento Box Design */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 749CEEC12AEBE80400F7B08E /* Build configuration list for PBXNativeTarget "Bento Box Design" */;
+			buildPhases = (
+				749CEE982AEBE80100F7B08E /* Sources */,
+				749CEE992AEBE80100F7B08E /* Frameworks */,
+				749CEE9A2AEBE80100F7B08E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Bento Box Design";
+			productName = "Bento Box Design";
+			productReference = 749CEE9C2AEBE80100F7B08E /* Bento Box Design.app */;
+			productType = "com.apple.product-type.application";
+		};
+		749CEEAC2AEBE80400F7B08E /* Bento Box DesignTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 749CEEC42AEBE80400F7B08E /* Build configuration list for PBXNativeTarget "Bento Box DesignTests" */;
+			buildPhases = (
+				749CEEA92AEBE80400F7B08E /* Sources */,
+				749CEEAA2AEBE80400F7B08E /* Frameworks */,
+				749CEEAB2AEBE80400F7B08E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				749CEEAF2AEBE80400F7B08E /* PBXTargetDependency */,
+			);
+			name = "Bento Box DesignTests";
+			productName = "Bento Box DesignTests";
+			productReference = 749CEEAD2AEBE80400F7B08E /* Bento Box DesignTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		749CEEB62AEBE80400F7B08E /* Bento Box DesignUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 749CEEC72AEBE80400F7B08E /* Build configuration list for PBXNativeTarget "Bento Box DesignUITests" */;
+			buildPhases = (
+				749CEEB32AEBE80400F7B08E /* Sources */,
+				749CEEB42AEBE80400F7B08E /* Frameworks */,
+				749CEEB52AEBE80400F7B08E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				749CEEB92AEBE80400F7B08E /* PBXTargetDependency */,
+			);
+			name = "Bento Box DesignUITests";
+			productName = "Bento Box DesignUITests";
+			productReference = 749CEEB72AEBE80400F7B08E /* Bento Box DesignUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		749CEE942AEBE80100F7B08E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					749CEE9B2AEBE80100F7B08E = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					749CEEAC2AEBE80400F7B08E = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 749CEE9B2AEBE80100F7B08E;
+					};
+					749CEEB62AEBE80400F7B08E = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 749CEE9B2AEBE80100F7B08E;
+					};
+				};
+			};
+			buildConfigurationList = 749CEE972AEBE80100F7B08E /* Build configuration list for PBXProject "Bento Box Design" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 749CEE932AEBE80100F7B08E;
+			productRefGroup = 749CEE9D2AEBE80100F7B08E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				749CEE9B2AEBE80100F7B08E /* Bento Box Design */,
+				749CEEAC2AEBE80400F7B08E /* Bento Box DesignTests */,
+				749CEEB62AEBE80400F7B08E /* Bento Box DesignUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		749CEE9A2AEBE80100F7B08E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				749CEEA72AEBE80400F7B08E /* Preview Assets.xcassets in Resources */,
+				749CEEA42AEBE80400F7B08E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		749CEEAB2AEBE80400F7B08E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		749CEEB52AEBE80400F7B08E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		749CEE982AEBE80100F7B08E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				749CEEA22AEBE80100F7B08E /* ContentView.swift in Sources */,
+				749CEEA02AEBE80100F7B08E /* Bento_Box_DesignApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		749CEEA92AEBE80400F7B08E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				749CEEB22AEBE80400F7B08E /* Bento_Box_DesignTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		749CEEB32AEBE80400F7B08E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				749CEEBC2AEBE80400F7B08E /* Bento_Box_DesignUITests.swift in Sources */,
+				749CEEBE2AEBE80400F7B08E /* Bento_Box_DesignUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		749CEEAF2AEBE80400F7B08E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 749CEE9B2AEBE80100F7B08E /* Bento Box Design */;
+			targetProxy = 749CEEAE2AEBE80400F7B08E /* PBXContainerItemProxy */;
+		};
+		749CEEB92AEBE80400F7B08E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 749CEE9B2AEBE80100F7B08E /* Bento Box Design */;
+			targetProxy = 749CEEB82AEBE80400F7B08E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		749CEEBF2AEBE80400F7B08E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		749CEEC02AEBE80400F7B08E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		749CEEC22AEBE80400F7B08E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Bento Box Design/Bento_Box_Design.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Bento Box Design/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ca.nina.zhou.Bento-Box-Design";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		749CEEC32AEBE80400F7B08E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Bento Box Design/Bento_Box_Design.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Bento Box Design/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ca.nina.zhou.Bento-Box-Design";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		749CEEC52AEBE80400F7B08E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ca.nina.zhou.Bento-Box-DesignTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bento Box Design.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Bento Box Design";
+			};
+			name = Debug;
+		};
+		749CEEC62AEBE80400F7B08E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ca.nina.zhou.Bento-Box-DesignTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bento Box Design.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Bento Box Design";
+			};
+			name = Release;
+		};
+		749CEEC82AEBE80400F7B08E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ca.nina.zhou.Bento-Box-DesignUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Bento Box Design";
+			};
+			name = Debug;
+		};
+		749CEEC92AEBE80400F7B08E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ca.nina.zhou.Bento-Box-DesignUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Bento Box Design";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		749CEE972AEBE80100F7B08E /* Build configuration list for PBXProject "Bento Box Design" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				749CEEBF2AEBE80400F7B08E /* Debug */,
+				749CEEC02AEBE80400F7B08E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		749CEEC12AEBE80400F7B08E /* Build configuration list for PBXNativeTarget "Bento Box Design" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				749CEEC22AEBE80400F7B08E /* Debug */,
+				749CEEC32AEBE80400F7B08E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		749CEEC42AEBE80400F7B08E /* Build configuration list for PBXNativeTarget "Bento Box DesignTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				749CEEC52AEBE80400F7B08E /* Debug */,
+				749CEEC62AEBE80400F7B08E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		749CEEC72AEBE80400F7B08E /* Build configuration list for PBXNativeTarget "Bento Box DesignUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				749CEEC82AEBE80400F7B08E /* Debug */,
+				749CEEC92AEBE80400F7B08E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 749CEE942AEBE80100F7B08E /* Project object */;
+}
