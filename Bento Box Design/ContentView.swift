@@ -12,7 +12,7 @@ struct ContentView: View {
         let lightGray = Color(
             hue: 0/360.0,
             saturation: 0.0,
-            brightness: 0.9
+            brightness: 0.93
         )
         let lightPurple = Color(
             hue: 266.0/360.0,
@@ -37,16 +37,17 @@ struct ContentView: View {
                     }
                     ZStack {
                         RoundedRectangle(cornerRadius: 20)
-                        VStack{
+                        VStack(spacing:10) {
                             Text("Up to")
                                 .foregroundStyle(.black)
                                 .font(.caption)
-                            Spacer()
+                           
                             Text("20%")
                                 .font(.largeTitle)
                                 .bold()
                                 .foregroundStyle(LinearGradient(colors: [Color(lightPurple),.purple], startPoint: .leading, endPoint:.trailing ))
-                            Spacer()
+
+                           
                             Text("faster CPU")
                                 .foregroundStyle(.black)
                                 .font(.caption)
@@ -109,20 +110,20 @@ struct ContentView: View {
                 }
             }
             .frame(maxWidth: 215)
-            VStack{
+            VStack(spacing:5){
                 HStack{
                     ZStack {
                         RoundedRectangle(cornerRadius: 20)
-                        VStack{
+                        VStack(spacing:10){
                             Text("Up to")
                                 .font(.caption)
                                 .foregroundStyle(.black)
-                            Spacer()
+                          
                             Text("30%")
                                 .font(.largeTitle)
                                 .bold()
                                 .foregroundStyle(LinearGradient(colors: [Color(lightPurple),.purple], startPoint: .leading, endPoint:.trailing ))
-                            Spacer()
+                          
                             Text("faster GPU")
                                 .font(.caption)
                                 .foregroundStyle(.black)
@@ -178,7 +179,7 @@ struct ContentView: View {
                 }
             }
             .frame(maxWidth: 270)
-            VStack{
+            VStack(spacing:5){
                 ZStack {
                     RoundedRectangle(cornerRadius: 20)
                         .frame(maxHeight: 104)
@@ -213,7 +214,7 @@ struct ContentView: View {
                     }
                     ZStack {
                         RoundedRectangle(cornerRadius: 20)
-                        VStack {
+                        VStack(spacing:-5) {
                             Image("GPU")
                                 .resizable()
                                 .scaledToFit()
